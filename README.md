@@ -1,0 +1,1 @@
+Simple raytracing implementation based off of Peter Shirley's books. No longer working on it, as I'm building a new solution from scratch based on the algorithms and math in https://www.pbr-book.org/4ed/contents. 
