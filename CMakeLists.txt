@@ -12,7 +12,7 @@ endif()
 project ("raytracingSimple")
 
 # Add source to this project's executable.
-add_executable (raytracing "main.cpp" "camera/boundingboxes.h" "camera/bvh.h" "texture/texture.h" "external/stb_image.h" "texture/rtwImage.h" "texture/perlin.h" "primitives/quad.h")
+add_executable (raytracing "main.cpp" "camera/boundingboxes.h" "camera/bvh.h" "texture/texture.h" "external/stb_image.h" "texture/rtwImage.h" "texture/perlin.h" "primitives/quad.h" "volumes/constantMedium.h")
 add_custom_target(CopyEarthmap ALL
     COMMAND ${CMAKE_COMMAND} -E copy
     ${CMAKE_CURRENT_SOURCE_DIR}/earthmap.jpg
